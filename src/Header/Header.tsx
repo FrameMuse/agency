@@ -11,8 +11,6 @@ export function Header() {
           </div>
         </div>
 
-        <div className="header__badge">Montenegro, Podgorica · EU Contractor</div>
-
         <div className="header__links">
           <a href="https://www.upwork.com/freelancers/framemuse" target="_blank" title="Upwork">
             <i class="fab fa-upwork"></i>

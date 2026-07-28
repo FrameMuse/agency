@@ -44,23 +44,6 @@
     letter-spacing: 0.05em;
     text-transform: uppercase;
   }
-
-  &__badge {
-    font-size: 0.7rem;
-    font-weight: 600;
-    padding: 0.3rem 0.6rem;
-    border-radius: 999px;
-    background: #f1f5f9;
-    color: #475569;
-    border: 1px solid #e2e8f0;
-    white-space: nowrap;
-    display: none;
-
-    @media (min-width: 768px) {
-      display: block;
-    }
-  }
-
   &__links {
     display: flex;
     align-items: center;
