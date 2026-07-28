@@ -24,20 +24,6 @@
     flex-shrink: 0;
   }
 
-  &__logo {
-    width: 2rem;
-    height: 2rem;
-    border: 1px solid #0f172a;
-    border-radius: 4px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 700;
-    font-size: 0.75rem;
-    background: #0f172a;
-    color: #fff;
-  }
-
   &__brand-text {
     display: flex;
     flex-direction: column;
