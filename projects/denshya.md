@@ -2,6 +2,7 @@
 name: Denshya / tama
 description: Reactive TypeScript ecosystem with lightweight JSX inflator, observable state, SSR, and router
 status: active
+price: $30,000+
 tags: TypeScript, JSX, SSR, npm
 links:
     github.com/denshya/tama

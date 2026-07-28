@@ -5,6 +5,7 @@ import { Skills } from "../Skills/Skills"
 import { Lifecycle } from "../Lifecycle/Lifecycle"
 import { Methods } from "../Methods/Methods"
 import { ProjectsSection } from "../Projects/Section"
+import { Pricing } from "../Pricing/Pricing"
 import { Contact } from "../Contact/Contact"
 import { Footer } from "../Footer/Footer"
 
@@ -21,6 +22,7 @@ function App(props: AppProps) {
       <Skills />
       <Lifecycle />
       <Methods />
+      <Pricing />
       <Contact />
       <Footer />
     </>

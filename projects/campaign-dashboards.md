@@ -2,6 +2,7 @@
 name: Campaign Dashboards
 description: Analytics dashboard with fully serverless backend
 status: archived
+price: $15,000
 tags: TypeScript, React, AWS SAM, Lambda, CloudFormation, Hasura, GraphQL, Auth0, Amplify, DigitalOcean Spaces
 links:
     github.com/FrameMuse/campaign-dashboards

@@ -2,6 +2,7 @@
 name: Game Editor
 description: 3D game editor with GPU path tracing capabilities
 status: archived
+price: $12,000
 tags: TypeScript, WebGL, GPU Compute
 links:
     github.com/FrameMuse/game-editor

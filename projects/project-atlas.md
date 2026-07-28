@@ -2,6 +2,7 @@
 name: Project Atlas
 description: Local-first project management tool backed by git
 status: archived
+price: $6,000
 tags: TypeScript, React, isomorphic-git
 links:
     github.com/FrameMuse/project-atlas

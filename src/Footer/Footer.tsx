@@ -6,11 +6,11 @@ export function Footer() {
       <div className="footer__inner">
         <div className="footer__brand">
           <div className="footer__logo">FM</div>
-          <span className="footer__name">FrameMuse</span>
+          <span className="footer__name">Valerý Zinčenko</span>
         </div>
 
         <p className="footer__copy">
-          &copy; {new Date().getFullYear()} Valery Zinchenko. Independent systems engineering.
+          &copy; {new Date().getFullYear()} Valerý Zinčenko. Independent systems engineering. Montenegro, Podgorica.
         </p>
 
         <div className="footer__links">

@@ -3,6 +3,7 @@ export interface Project {
   description: string
   status: string
   tags: string
+  price: string
   links: string[]
   series?: string[]
   highlights: string[]

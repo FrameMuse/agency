@@ -28,9 +28,12 @@ export function ProjectCard(props: ProjectCardProps) {
     <div className="project-card">
       <div className="project-card__header">
         <h3 className="project-card__name">{p.name}</h3>
-        {p.status !== "active" ? (
-          <span className={`project-card__status project-card__status--${p.status}`}>{p.status}</span>
-        ) : null}
+        <div className="project-card__badges">
+          {p.price ? <span className="project-card__price">{p.price}</span> : null}
+          {p.status !== "active" ? (
+            <span className={`project-card__status project-card__status--${p.status}`}>{p.status}</span>
+          ) : null}
+        </div>
       </div>
       <p className="project-card__description">{p.description}</p>
       <div className="project-card__tags">

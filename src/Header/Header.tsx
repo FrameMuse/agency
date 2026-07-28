@@ -7,12 +7,12 @@ export function Header() {
         <div className="header__brand">
           <div className="header__logo">FM</div>
           <div className="header__brand-text">
-            <span className="header__name">FrameMuse</span>
+            <span className="header__name">Valerý Zinčenko</span>
             <span className="header__tagline">systems engineering</span>
           </div>
         </div>
 
-        <div className="header__badge">EU-Based Independent Contractor</div>
+        <div className="header__badge">Montenegro, Podgorica · EU Contractor</div>
 
         <div className="header__links">
           <a href="https://www.upwork.com/freelancers/framemuse" target="_blank" title="Upwork">

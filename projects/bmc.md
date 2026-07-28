@@ -2,6 +2,7 @@
 name: BMC
 description: Multi-repository codebase audit revealing 70% code duplication across frontend and backend projects
 status: lost
+price: $5,000
 tags:
 links:
 highlights:

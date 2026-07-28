@@ -2,6 +2,7 @@
 name: AtomSMM
 description: SMM panel for social media marketing (2 versions)
 status: archived
+price: $3,000
 tags: TypeScript, React, CRA
 links:
 highlights:
