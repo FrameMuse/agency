@@ -1,0 +1,96 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(4px);
+  border-bottom: 1px solid #e2e8f0;
+
+  &__inner {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4rem;
+    gap: 1rem;
+  }
+
+  &__brand {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex-shrink: 0;
+  }
+
+  &__logo {
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid #0f172a;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.75rem;
+    background: #0f172a;
+    color: #fff;
+  }
+
+  &__brand-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+  }
+
+  &__name {
+    font-family: "Lora", serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #0f172a;
+  }
+
+  &__tagline {
+    font-family: "Lora", serif;
+    font-size: 0.7rem;
+    color: #94a3b8;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  &__badge {
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 0.3rem 0.6rem;
+    border-radius: 999px;
+    background: #f1f5f9;
+    color: #475569;
+    border: 1px solid #e2e8f0;
+    white-space: nowrap;
+    display: none;
+
+    @media (min-width: 768px) {
+      display: block;
+    }
+  }
+
+  &__links {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+
+    a {
+      color: #94a3b8;
+      transition: color 0.15s;
+
+      &:hover {
+        color: #0f172a;
+      }
+    }
+
+    i {
+      font-size: 1.25rem;
+    }
+  }
+}

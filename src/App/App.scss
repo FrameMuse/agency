@@ -1,0 +1,13 @@
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+
+  &__title {
+    font-family: "Inter", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: #0f172a;
+  }
+}

@@ -1,0 +1,106 @@
+.project-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 1.25rem;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  transition: box-shadow 0.2s;
+
+  &:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  }
+
+  &__images {
+    display: flex;
+    gap: 0.5rem;
+    overflow-x: auto;
+  }
+
+  &__image {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    border-radius: 8px;
+    flex-shrink: 0;
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+  }
+
+  &__name {
+    font-family: "Inter", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #0f172a;
+    margin: 0;
+  }
+
+  &__status {
+    font-size: 0.7rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.15rem 0.4rem;
+    border-radius: 4px;
+
+    &--archived {
+      background: #f1f5f9;
+      color: #64748b;
+    }
+
+    &--lost {
+      background: #fef2f2;
+      color: #dc2626;
+    }
+  }
+
+  &__description {
+    font-size: 0.875rem;
+    color: #475569;
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  &__tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+  }
+
+  &__tag {
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    background: #f8fafc;
+    color: #475569;
+    border: 1px solid #e2e8f0;
+
+    &.tag--ts { background: #e8f4fd; color: #1a6da0; border-color: #b8ddf5; }
+    &.tag--react { background: #e5f6fd; color: #087ea4; border-color: #b8e4f8; }
+    &.tag--rust { background: #fce9e9; color: #b7410e; border-color: #f5c2c2; }
+    &.tag--python { background: #eef5e6; color: #38761d; border-color: #c8e6a0; }
+    &.tag--docker { background: #e5f2fa; color: #0f6b93; border-color: #b8dbf0; }
+    &.tag--aws { background: #fef3d5; color: #b8860b; border-color: #fce5a0; }
+    &.tag--nestjs { background: #f0e6f6; color: #7214a0; border-color: #d4b8e8; }
+    &.tag--django { background: #e5f0e5; color: #0f4d0f; border-color: #b8d8b8; }
+  }
+
+  &__link {
+    font-size: 0.8rem;
+    color: #1d4ed8;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: auto;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
