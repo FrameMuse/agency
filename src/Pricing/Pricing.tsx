@@ -25,7 +25,7 @@ export function Pricing() {
         </div>
 
         <div className="pricing__rate">
-          <span className="pricing__rate-value">${RATE}</span>
+          <span className="pricing__rate-value">~${RATE}</span>
           <span className="pricing__rate-unit">/hr</span>
         </div>
 
