@@ -4,6 +4,7 @@ export interface Project {
   status: string
   tags: string
   price: string
+  hours: string
   links: string[]
   series?: string[]
   highlights: string[]

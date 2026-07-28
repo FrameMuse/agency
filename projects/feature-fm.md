@@ -3,6 +3,7 @@ name: feature.fm
 description: Feature management platform deployed on Cloudflare Workers
 status: archived
 price: $4,000
+hours: 240
 tags: TypeScript, Cloudflare Workers, Wrangler, Vite, Vitest
 links:
 highlights:

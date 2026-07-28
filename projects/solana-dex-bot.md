@@ -3,6 +3,7 @@ name: Solana DEX Trading Bot
 description: High-throughput DEX trading strategies with Solana blockchain integration
 status: archived
 price: $4,000
+hours: 160
 tags: TypeScript, Bun, Python, Solana SDK, gRPC, Jito, Docker Compose
 links:
     github.com/FrameMuse/solana-dex-trading-bot

@@ -3,6 +3,7 @@ name: PARAGO_OS
 description: Full-stack code audit with security analysis, code duplication audit, and migration recommendations
 status: archived
 price: $500
+hours: 8
 tags: TypeScript, React, Drizzle ORM, NeonDB, SendGrid, gitleaks, Husky
 links:
     github.com/FrameMuse/PAROGO_OS_v0.5

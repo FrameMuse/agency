@@ -7,6 +7,7 @@ export interface ProjectData {
   status: string
   tags: string
   price: string
+  hours: string
   links: string[]
   series?: string[]
   highlights: string[]
@@ -95,6 +96,7 @@ export function readProjects(projectsDir: string): ProjectData[] {
       status: (d.status as string) ?? "archived",
       tags: normalizeTags(d.tags),
       price: (d.price as string) ?? "",
+      hours: (d.hours as string) ?? "",
       links: normalizeLinks(d.links),
       highlights: normalizeHighlights(d.highlights),
       images: normalizeImages(d.images),

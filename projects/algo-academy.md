@@ -3,6 +3,7 @@ name: Algo Academy
 description: Algorithm learning platform for coding education
 status: archived
 price: $2,000
+hours: 120
 tags: TypeScript, React, Redux, SCSS, Docker
 links:
     github.com/FrameMuse/algo-academy

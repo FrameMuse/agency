@@ -3,6 +3,7 @@ name: HCF Charity Series
 description: Series of charity fundraising platforms — Water, House, Childhood
 status: archived
 price: $1,400
+hours: 80
 tags: TypeScript, React, Docker, GitHub Actions
 links:
     github.com/FrameMuse/HCF

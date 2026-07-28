@@ -19,17 +19,31 @@ function tagClass(tag: string): string {
   return map[tag.toLowerCase()] ?? ""
 }
 
+function parsePrice(raw: string): number {
+  return Number(raw.replace(/[^0-9.]/g, ""))
+}
+
 export function ProjectCard(props: ProjectCardProps) {
   const p = props.project
   const tags = p.tags.split(",").map(t => t.trim()).filter(Boolean)
   const firstLink = p.links[0] ?? ""
+  const showRate = p.price && p.hours
+  const rate = showRate ? Math.round(parsePrice(p.price) / Number(p.hours)) : 0
 
   return (
     <div className="project-card">
       <div className="project-card__header">
         <h3 className="project-card__name">{p.name}</h3>
         <div className="project-card__badges">
-          {p.price ? <span className="project-card__price">{p.price}</span> : null}
+          {showRate ? (
+            <div className="project-card__rate">
+              <span className="project-card__rate-row">{p.hours}h × ${rate}/h</span>
+              <div className="project-card__rate-divider"></div>
+              <span className="project-card__rate-total">{p.price}</span>
+            </div>
+          ) : p.price ? (
+            <span className="project-card__price">{p.price}</span>
+          ) : null}
         </div>
       </div>
       <p className="project-card__description">{p.description}</p>

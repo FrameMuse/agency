@@ -3,6 +3,7 @@ name: Menu App
 description: Complete restaurant menu ecosystem with Figma Plugin, Admin Panel, and Desktop Display App integrated with 8 POS systems
 status: archived
 price: $20,000
+hours: 2460
 tags: TypeScript, React, NestJS, Figma Plugin API, Socket.IO, MongoDB, S3, WebSocket
 links:
 highlights:

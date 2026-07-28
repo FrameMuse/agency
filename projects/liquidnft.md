@@ -3,6 +3,7 @@ name: LiquidNFT
 description: Multi-chain NFT platform with landing pages and marketplace
 status: archived
 price: $3,500
+hours: 230
 tags: TypeScript, React, ethers.js, Web3, tronweb
 links:
     github.com/FrameMuse/liquidnft

@@ -3,6 +3,7 @@ name: Standoff Series
 description: Collection of 5 browser-based casino games
 status: archived
 price: $12,000
+hours: 800
 tags: TypeScript, React, Redux, React Router, Vite
 links:
     github.com/FrameMuse/StandoffCase

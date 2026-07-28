@@ -25,6 +25,26 @@
     margin-top: 0.5rem;
   }
 
+  &__rate {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 0.15rem;
+    margin-bottom: 2rem;
+  }
+
+  &__rate-value {
+    font-family: Georgia, serif;
+    font-size: 3rem;
+    font-weight: 400;
+    color: #0f172a;
+  }
+
+  &__rate-unit {
+    font-size: 1.25rem;
+    color: #64748b;
+  }
+
   &__table-wrap {
     overflow-x: auto;
   }
@@ -45,6 +65,10 @@
     padding: 0.75rem 1rem;
     text-align: center;
     border-bottom: 2px solid #e2e8f0;
+
+    &:first-child {
+      text-align: left;
+    }
   }
 
   &__service {

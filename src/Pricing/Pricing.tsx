@@ -1,11 +1,17 @@
 import "./Pricing.scss"
 
+const RATE = 20
+
 const ROWS = [
-  { service: "Frontend", starter: "$350–$1.5K", standard: "$1.5K–$3.5K", complex: "$3.5K–$5K" },
-  { service: "Full-Stack", starter: "$800–$2K", standard: "$2K–$5K", complex: "$5K–$20K" },
-  { service: "Infrastructure & DevOps", starter: "$500–$1K", standard: "$1K–$3K", complex: "$3K–$5K" },
-  { service: "Code Audit & Consulting", starter: "$500–$1K", standard: "$1K–$3K", complex: "$3K–$5K" },
+  { service: "Frontend", hours: "8–80h", min: 8, max: 80 },
+  { service: "Full-Stack", hours: "20–200h", min: 20, max: 200 },
+  { service: "Infrastructure & DevOps", hours: "10–60h", min: 10, max: 60 },
+  { service: "Code Audit & Consulting", hours: "10–50h", min: 10, max: 50 },
 ]
+
+function fmt(n: number) {
+  return n >= 1000 ? `$${(n / 1000).toFixed(n % 1000 === 0 ? 0 : 1)}K` : `$${n}`
+}
 
 export function Pricing() {
   return (
@@ -14,27 +20,30 @@ export function Pricing() {
         <div className="pricing__header">
           <h2 className="pricing__title">Transparent Pricing</h2>
           <p className="pricing__subtitle">
-            Fixed-price or hourly. No hidden fees. Each project quoted individually.
+            Hourly rate, flexible per project. No hidden fees.
           </p>
+        </div>
+
+        <div className="pricing__rate">
+          <span className="pricing__rate-value">${RATE}</span>
+          <span className="pricing__rate-unit">/hr</span>
         </div>
 
         <div className="pricing__table-wrap">
           <table className="pricing__table">
             <thead>
               <tr>
-                <th></th>
-                <th className="pricing__th">Starter</th>
-                <th className="pricing__th">Standard</th>
-                <th className="pricing__th">Complex</th>
+                <th className="pricing__th">Service</th>
+                <th className="pricing__th">Estimated Hours</th>
+                <th className="pricing__th">Price Range</th>
               </tr>
             </thead>
             <tbody>
               {ROWS.map(row => (
                 <tr key={row.service}>
                   <td className="pricing__service">{row.service}</td>
-                  <td className="pricing__cell">{row.starter}</td>
-                  <td className="pricing__cell">{row.standard}</td>
-                  <td className="pricing__cell">{row.complex}</td>
+                  <td className="pricing__cell">{row.hours}</td>
+                  <td className="pricing__cell">{fmt(row.min * RATE)}–{fmt(row.max * RATE)}</td>
                 </tr>
               ))}
             </tbody>
