@@ -9,8 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@denshya/reactive": "file:../../denshya/flow",
-    "@denshya/tama": "file:../../denshya/tama"
+    "@denshya/tama": "0.8.0"
   },
   "devDependencies": {
     "sass": "^1.86.0",
