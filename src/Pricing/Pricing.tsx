@@ -1,10 +1,10 @@
 import "./Pricing.scss"
 
 const ROWS = [
-  { service: "Frontend", starter: "$1K–$3K", standard: "$3K–$10K", complex: "$10K–$20K" },
-  { service: "Full-Stack", starter: "$3K–$8K", standard: "$8K–$20K", complex: "$20K–$40K" },
-  { service: "Infrastructure & DevOps", starter: "$1K–$3K", standard: "$3K–$8K", complex: "$8K–$15K" },
-  { service: "Code Audit & Consulting", starter: "$1K–$2K", standard: "$2K–$5K", complex: "$5K–$10K" },
+  { service: "Frontend", starter: "$350–$1.5K", standard: "$1.5K–$3.5K", complex: "$3.5K–$5K" },
+  { service: "Full-Stack", starter: "$800–$2K", standard: "$2K–$5K", complex: "$5K–$20K" },
+  { service: "Infrastructure & DevOps", starter: "$500–$1K", standard: "$1K–$3K", complex: "$3K–$5K" },
+  { service: "Code Audit & Consulting", starter: "$500–$1K", standard: "$1K–$3K", complex: "$3K–$5K" },
 ]
 
 export function Pricing() {
