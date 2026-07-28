@@ -4,7 +4,7 @@ description: Multi-repository codebase audit revealing 70% code duplication acro
 status: lost
 price: $800
 hours: 30
-tags:
+tags: React, TypeScript, JavaScript, Express
 links:
 highlights:
     Cross-repository code duplication analysis
