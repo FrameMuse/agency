@@ -93,6 +93,31 @@
     &.tag--aws { background: #fef3d5; color: #b8860b; border-color: #fce5a0; }
     &.tag--nestjs { background: #f0e6f6; color: #7214a0; border-color: #d4b8e8; }
     &.tag--django { background: #e5f0e5; color: #0f4d0f; border-color: #b8d8b8; }
+    &.tag--js { background: #fef9e7; color: #b8860b; border-color: #fce5a0; }
+    &.tag--express { background: #e8ecef; color: #374151; border-color: #cbd5e1; }
+    &.tag--vite { background: #f0e6f6; color: #6b21a8; border-color: #d4b8e8; }
+    &.tag--postgres { background: #e0f2fe; color: #1e40af; border-color: #b8ddf5; }
+    &.tag--mongo { background: #e6f7e6; color: #166534; border-color: #b8e6b8; }
+    &.tag--redis { background: #fce4e4; color: #b91c1c; border-color: #f5b8b8; }
+    &.tag--compose { background: #e5f2fa; color: #0f6b93; border-color: #b8dbf0; }
+    &.tag--gha { background: #e8ecef; color: #1f2937; border-color: #cbd5e1; }
+    &.tag--ws { background: #e0f2fe; color: #0e7490; border-color: #b8e4f8; }
+    &.tag--socketio { background: #f1f5f9; color: #475569; border-color: #cbd5e1; }
+    &.tag--redux { background: #f0e6f6; color: #7214a0; border-color: #d4b8e8; }
+    &.tag--graphql { background: #fce4f0; color: #9b1d6e; border-color: #f5b8d4; }
+    &.tag--tailwind { background: #e0faf0; color: #0d7a5a; border-color: #b8f0d4; }
+    &.tag--scss { background: #fce4f0; color: #b91c6e; border-color: #f5b8d4; }
+    &.tag--three { background: #e8eaf6; color: #1a237e; border-color: #b8bdf5; }
+    &.tag--java { background: #fef3d5; color: #b45f06; border-color: #fce5a0; }
+    &.tag--bun { background: #fef9e7; color: #92400e; border-color: #fce5a0; }
+    &.tag--shadcn { background: #f1f5f9; color: #0f172a; border-color: #94a3b8; }
+    &.tag--drizzle { background: #e6f7e6; color: #166534; border-color: #b8e6b8; }
+    &.tag--zod { background: #e0f2fe; color: #1e40af; border-color: #b8ddf5; }
+    &.tag--typeorm { background: #fce9e9; color: #7f1d1d; border-color: #f5c2c2; }
+    &.tag--cf { background: #fef3d5; color: #b45f06; border-color: #fce5a0; }
+    &.tag--figma { background: #e0faf0; color: #0d7a5a; border-color: #b8f0d4; }
+    &.tag--solana { background: #f0e6f6; color: #7214a0; border-color: #d4b8e8; }
+    &.tag--web3 { background: #e8eaf6; color: #1a237e; border-color: #b8bdf5; }
   }
 
   &__link {

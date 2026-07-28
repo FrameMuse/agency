@@ -15,8 +15,33 @@ function tagClass(tag: string): string {
     aws: "tag--aws",
     nestjs: "tag--nestjs",
     django: "tag--django",
+    javascript: "tag--js",
+    express: "tag--express",
+    vite: "tag--vite",
+    postgresql: "tag--postgres",
+    mongodb: "tag--mongo",
+    redis: "tag--redis",
+    "docker compose": "tag--compose",
+    "github actions": "tag--gha",
+    websocket: "tag--ws",
+    "socket.io": "tag--socketio",
+    redux: "tag--redux",
+    graphql: "tag--graphql",
+    tailwind: "tag--tailwind",
+    scss: "tag--scss",
+    "three.js": "tag--three",
+    java: "tag--java",
+    bun: "tag--bun",
+    shadcnui: "tag--shadcn",
+    "drizzle orm": "tag--drizzle",
+    zod: "tag--zod",
+    typeorm: "tag--typeorm",
+    "cloudflare workers": "tag--cf",
+    "figma plugin api": "tag--figma",
+    solana: "tag--solana",
+    web3: "tag--web3",
   }
-  return map[tag.toLowerCase()] ?? ""
+  return map[tag.toLowerCase().replace(/[\s.]/g, "")] ?? ""
 }
 
 function parsePrice(raw: string): number {
