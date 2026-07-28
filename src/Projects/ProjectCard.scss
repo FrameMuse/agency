@@ -59,33 +59,17 @@
   }
 
   &__rate {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.1rem;
-    background: #e8f4fd;
-    padding: 0.25rem 0.5rem;
-    border-radius: 4px;
-  }
-
-  &__rate-row {
     font-size: 0.75rem;
-    font-weight: 700;
+    font-weight: 500;
     color: #1d4ed8;
+    background: #e8f4fd;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
     white-space: nowrap;
-  }
-
-  &__rate-divider {
-    width: 100%;
-    height: 0;
-    border-bottom: 1px solid #93c5fd;
   }
 
   &__rate-total {
-    font-size: 0.75rem;
     font-weight: 700;
-    color: #1d4ed8;
-    white-space: nowrap;
   }
 
   &__description {

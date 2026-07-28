@@ -36,11 +36,7 @@ export function ProjectCard(props: ProjectCardProps) {
         <h3 className="project-card__name">{p.name}</h3>
         <div className="project-card__badges">
           {showRate ? (
-            <div className="project-card__rate">
-              <span className="project-card__rate-row">{p.hours}h × ${rate}/h</span>
-              <div className="project-card__rate-divider"></div>
-              <span className="project-card__rate-total">{p.price}</span>
-            </div>
+            <span className="project-card__rate">{p.hours}h × ${rate}/h <span className="project-card__rate-total">= {p.price}</span></span>
           ) : p.price ? (
             <span className="project-card__price">{p.price}</span>
           ) : null}
