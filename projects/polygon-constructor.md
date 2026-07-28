@@ -2,7 +2,7 @@
 name: Polygon Constructor
 description: TypeScript 2D polygon layout library with blocks, transforms, and import/export
 status: archived
-price: $4,000
+price: $350
 tags: TypeScript, reflect-metadata
 links:
     github.com/FrameMuse/polygon-constructor

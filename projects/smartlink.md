@@ -2,7 +2,7 @@
 name: Smartlink
 description: Link management platform with production NestJS API and React frontend
 status: archived
-price: $20,000
+price: $3,500
 tags: TypeScript, React, Redux Toolkit, NestJS, PostgreSQL, TypeORM, Socket.IO, Zod, PM2, DigitalOcean, GitHub Actions
 links:
     github.com/FrameMuse/smartlink-backend

@@ -2,7 +2,7 @@
 name: Rukaku
 description: Multi-language microservice finance platform
 status: archived
-price: $15,000
+price: $2,000
 tags: Rust, TypeScript, Python, nginx, Docker Compose, WebSocket
 links:
 highlights:

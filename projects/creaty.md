@@ -2,7 +2,7 @@
 name: Creaty
 description: Content creation platform with Django backend and React frontend
 status: archived
-price: $20,000
+price: $1,200
 tags: Python, Django, PostgreSQL, Redis, Celery, React, TypeScript, Docker Compose, GitHub Actions
 links:
     github.com/FrameMuse/creaty-backend

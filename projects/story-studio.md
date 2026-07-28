@@ -2,7 +2,7 @@
 name: Story Studio
 description: Custom TypeScript compiler toolchain with plugins for ESLint, TSServer, and Vite
 status: archived
-price: $10,000
+price: $800
 tags: TypeScript, ts-patch, ESLint, TSServer, Vite
 links:
     github.com/FrameMuse/story-studio

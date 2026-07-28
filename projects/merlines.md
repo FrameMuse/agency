@@ -2,7 +2,7 @@
 name: Merlines
 description: Business frontend application with GitLab CI/CD pipeline
 status: archived
-price: $5,000
+price: $1,500
 tags: TypeScript, React, Docker, Docker Compose, GitLab CI
 links:
 highlights:

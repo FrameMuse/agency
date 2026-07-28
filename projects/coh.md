@@ -2,7 +2,7 @@
 name: COH
 description: 3D real-time strategy game with navmesh pathfinding
 status: archived
-price: $10,000
+price: $2,000
 tags: TypeScript, Three.js, recast-navigation, @react-three/fiber
 links:
     github.com/FrameMuse/COH
