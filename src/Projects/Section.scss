@@ -1,35 +1,35 @@
 .projects-section {
-  padding: 4rem 1.5rem;
+  padding: 5.325rem 2rem;
   border-bottom: 1px solid #e2e8f0;
 
   &__inner {
-    max-width: 1200px;
+    max-width: 1596px;
     margin: 0 auto;
   }
 
   &__header {
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
   }
 
   &__title {
     font-family: Georgia, serif;
-    font-size: 2rem;
+    font-size: 2.675rem;
     font-weight: 400;
     color: #0f172a;
-    margin-top: 0.25rem;
+    margin-top: 0.325rem;
   }
 
   &__subtitle {
-    font-size: 0.875rem;
+    font-size: 1.125rem;
     color: #64748b;
-    margin-top: 0.5rem;
+    margin-top: 0.675rem;
   }
 
   &__stats {
     font-family: "SF Mono", "Cascadia Code", monospace;
-    font-size: 0.85rem;
+    font-size: 1.125rem;
     color: #1d4ed8;
-    margin-top: 0.75rem;
+    margin-top: 1rem;
   }
 }

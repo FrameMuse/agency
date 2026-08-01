@@ -3,24 +3,24 @@
   top: 0;
   z-index: 50;
   background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(6px);
   border-bottom: 1px solid #e2e8f0;
 
   &__inner {
-    max-width: 1280px;
+    max-width: 1702px;
     margin: 0 auto;
-    padding: 0 1.5rem;
+    padding: 0 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 4rem;
-    gap: 1rem;
+    height: 5.325rem;
+    gap: 1.325rem;
   }
 
   &__brand {
     display: flex;
     align-items: center;
-    gap: 0.75rem;
+    gap: 1rem;
     flex-shrink: 0;
   }
 
@@ -33,21 +33,21 @@
   &__name {
     font-family: Georgia, serif;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1.325rem;
     color: #0f172a;
   }
 
   &__tagline {
     font-family: Georgia, serif;
-    font-size: 0.7rem;
+    font-size: 1rem;
     color: #64748b;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.125em;
     text-transform: uppercase;
   }
   &__links {
     display: flex;
     align-items: center;
-    gap: 0.75rem;
+    gap: 1rem;
 
     a {
       color: #94a3b8;

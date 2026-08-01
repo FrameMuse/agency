@@ -1,18 +1,18 @@
 .extras {
-  margin-top: 2rem;
-  padding-top: 1.5rem;
+  margin-top: 2.675rem;
+  padding-top: 2rem;
   border-top: 1px solid #e2e8f0;
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
+  gap: 1rem;
 
   &__row {
     display: flex;
-    gap: 1rem;
-    font-size: 0.8rem;
+    gap: 1.325rem;
+    font-size: 1.125rem;
     color: #475569;
     line-height: 1.5;
-    max-width: 640px;
+    max-width: 852px;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -21,42 +21,42 @@
   &__label {
     flex-shrink: 0;
     font-family: monospace;
-    font-size: 0.7rem;
+    font-size: 1rem;
     font-weight: 700;
     color: #1d4ed8;
     text-transform: uppercase;
-    letter-spacing: 0.08em;
-    padding-top: 0.1rem;
-    width: 7rem;
+    letter-spacing: 0.125em;
+    padding-top: 0.125rem;
+    width: 9.325rem;
   }
 
   &__skills,
   &__methods {
     display: flex;
     flex-direction: column;
-    gap: 0.15rem;
+    gap: 0.25rem;
   }
 
   &__tag {
     display: inline-block;
-    padding: 0 0.25em;
-    border-radius: 0.25em;
+    padding: 0 0.325em;
+    border-radius: 0.325em;
     background: #f1f5f9;
     border: 1px solid #e2e8f0;
-    margin-right: 0.25em;
+    margin-right: 0.325em;
   }
 
   &__steps {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.675rem;
   }
 
   &__step {
     display: inline-flex;
     align-items: center;
-    gap: 0.35rem;
+    gap: 0.5rem;
   }
 
   &__step-num {
@@ -67,7 +67,7 @@
 
   &__step-arrow {
     color: #94a3b8;
-    margin-left: 0.25rem;
+    margin-left: 0.325rem;
   }
 
   &__method {
@@ -80,7 +80,7 @@
 
   &__payments {
     font-family: "SF Mono", "Cascadia Code", monospace;
-    font-size: 0.8rem;
+    font-size: 1.125rem;
     color: #475569;
   }
 }
