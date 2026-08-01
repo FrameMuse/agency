@@ -76,7 +76,7 @@ export function ProjectCard(props: ProjectCardProps) {
         <div className="project-card__images">
           {p.images.map(src => (
             <div className="project-card__image-wrap" key={src}>
-              <img src={src.replace(/^\//, "")} alt={p.name} className="project-card__image" loading="lazy" decoding="async" />
+              <img src={src.replace(/^\//, "")} alt={p.name} className="project-card__image" loading="lazy" decoding="async" width="64" height="64" />
             </div>
           ))}
         </div>

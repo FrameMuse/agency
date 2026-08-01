@@ -112,14 +112,14 @@
     border: 1px solid #e2e8f0;
 
     &.tag--ts { background: #e8f4fd; color: #1a6da0; border-color: #b8ddf5; }
-    &.tag--react { background: #e5f6fd; color: #087ea4; border-color: #b8e4f8; }
+    &.tag--react { background: #e5f6fd; color: #0b5e80; border-color: #b8e4f8; }
     &.tag--rust { background: #fce9e9; color: #b7410e; border-color: #f5c2c2; }
     &.tag--python { background: #eef5e6; color: #38761d; border-color: #c8e6a0; }
     &.tag--docker { background: #e5f2fa; color: #0f6b93; border-color: #b8dbf0; }
     &.tag--aws { background: #fef3d5; color: #b8860b; border-color: #fce5a0; }
     &.tag--nestjs { background: #f0e6f6; color: #7214a0; border-color: #d4b8e8; }
     &.tag--django { background: #e5f0e5; color: #0f4d0f; border-color: #b8d8b8; }
-    &.tag--js { background: #fef9e7; color: #b8860b; border-color: #fce5a0; }
+    &.tag--js { background: #fef9e7; color: #92400e; border-color: #fce5a0; }
     &.tag--express { background: #e8ecef; color: #374151; border-color: #cbd5e1; }
     &.tag--vite { background: #f0e6f6; color: #6b21a8; border-color: #d4b8e8; }
     &.tag--postgres { background: #e0f2fe; color: #1e40af; border-color: #b8ddf5; }
@@ -134,7 +134,7 @@
     &.tag--tailwind { background: #e0faf0; color: #0d7a5a; border-color: #b8f0d4; }
     &.tag--scss { background: #fce4f0; color: #b91c6e; border-color: #f5b8d4; }
     &.tag--three { background: #e8eaf6; color: #1a237e; border-color: #b8bdf5; }
-    &.tag--java { background: #fef3d5; color: #b45f06; border-color: #fce5a0; }
+    &.tag--java { background: #fef3d5; color: #92400e; border-color: #fce5a0; }
     &.tag--bun { background: #fef9e7; color: #92400e; border-color: #fce5a0; }
     &.tag--shadcn { background: #f1f5f9; color: #0f172a; border-color: #94a3b8; }
     &.tag--drizzle { background: #e6f7e6; color: #166534; border-color: #b8e6b8; }

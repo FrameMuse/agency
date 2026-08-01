@@ -14,10 +14,12 @@ function App(props: AppProps) {
   return (
     <>
       <Header />
-      <Hero />
-      {props.projects ? <ProjectsSection projects={props.projects} /> : null}
-      <Catalog />
-      <Contact />
+      <main>
+        <Hero />
+        {props.projects ? <ProjectsSection projects={props.projects} /> : null}
+        <Catalog />
+        <Contact />
+      </main>
       <Footer />
     </>
   )

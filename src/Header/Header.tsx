@@ -13,19 +13,19 @@ export function Header() {
         </div>
 
         <div className="header__links">
-          <a href="https://www.upwork.com/freelancers/~011fb5acc9165ef113" target="_blank" title="Upwork">
+          <a href="https://www.upwork.com/freelancers/~011fb5acc9165ef113" target="_blank" aria-label="Upwork">
             <Icon name="upwork" className="icon" />
           </a>
-          <a href="https://t.me/FrameMuse" target="_blank" title="Telegram">
+          <a href="https://t.me/FrameMuse" target="_blank" aria-label="Telegram">
             <Icon name="telegram" className="icon" />
           </a>
-          <a href="https://github.com/framemuse" target="_blank" title="GitHub">
+          <a href="https://github.com/framemuse" target="_blank" aria-label="GitHub">
             <Icon name="github" className="icon" />
           </a>
-          <a href="http://linkedin.com/in/framemuse" target="_blank" title="LinkedIn">
+          <a href="http://linkedin.com/in/framemuse" target="_blank" aria-label="LinkedIn">
             <Icon name="linkedin" className="icon" />
           </a>
-          <a href="mailto:valerii.zinchenko.work@gmail.com" title="Email">
+          <a href="mailto:valerii.zinchenko.work@gmail.com" aria-label="Email">
             <Icon name="envelope" className="icon" />
           </a>
         </div>
