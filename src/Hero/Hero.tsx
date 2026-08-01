@@ -1,4 +1,5 @@
 import "./Hero.scss"
+import { Icon } from "../Icon/Icon"
 
 export function Hero() {
   return (
@@ -19,7 +20,7 @@ export function Hero() {
 
         <div className="hero__ctas">
           <a href="https://t.me/FrameMuse" target="_blank" className="hero__btn hero__btn--primary">
-            Write on Telegram <i className="fab fa-telegram"></i>
+            Write on Telegram <Icon name="telegram" className="icon" />
           </a>
           <a href="#projects" className="hero__btn hero__btn--secondary">
             View Projects

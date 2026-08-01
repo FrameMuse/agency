@@ -1,4 +1,5 @@
 import "./Header.scss"
+import { Icon } from "../Icon/Icon"
 
 export function Header() {
   return (
@@ -13,19 +14,19 @@ export function Header() {
 
         <div className="header__links">
           <a href="https://www.upwork.com/freelancers/~011fb5acc9165ef113" target="_blank" title="Upwork">
-            <i className="fab fa-upwork"></i>
+            <Icon name="upwork" className="icon" />
           </a>
           <a href="https://t.me/FrameMuse" target="_blank" title="Telegram">
-            <i className="fab fa-telegram"></i>
+            <Icon name="telegram" className="icon" />
           </a>
           <a href="https://github.com/framemuse" target="_blank" title="GitHub">
-            <i className="fab fa-github"></i>
+            <Icon name="github" className="icon" />
           </a>
           <a href="http://linkedin.com/in/framemuse" target="_blank" title="LinkedIn">
-            <i className="fab fa-linkedin"></i>
+            <Icon name="linkedin" className="icon" />
           </a>
           <a href="mailto:valerii.zinchenko.work@gmail.com" title="Email">
-            <i className="fas fa-envelope"></i>
+            <Icon name="envelope" className="icon" />
           </a>
         </div>
       </div>

@@ -1,4 +1,5 @@
 import "./Footer.scss"
+import { Icon } from "../Icon/Icon"
 
 export function Footer() {
   return (
@@ -14,10 +15,10 @@ export function Footer() {
         </p>
 
         <div className="footer__links">
-          <a href="https://github.com/framemuse" target="_blank"><i className="fab fa-github"></i></a>
-          <a href="http://linkedin.com/in/framemuse" target="_blank"><i className="fab fa-linkedin"></i></a>
-          <a href="https://stackoverflow.com/users/12468111/framemuse" target="_blank"><i className="fab fa-stack-overflow"></i></a>
-          <a href="mailto:valerii.zinchenko.work@gmail.com"><i className="fas fa-envelope"></i></a>
+          <a href="https://github.com/framemuse" target="_blank"><Icon name="github" className="icon" /></a>
+          <a href="http://linkedin.com/in/framemuse" target="_blank"><Icon name="linkedin" className="icon" /></a>
+          <a href="https://stackoverflow.com/users/12468111/framemuse" target="_blank"><Icon name="stack-overflow" className="icon" /></a>
+          <a href="mailto:valerii.zinchenko.work@gmail.com"><Icon name="envelope" className="icon" /></a>
         </div>
       </div>
     </footer>
