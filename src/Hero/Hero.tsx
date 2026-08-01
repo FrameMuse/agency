@@ -18,8 +18,8 @@ export function Hero() {
         </p>
 
         <div className="hero__ctas">
-          <a href="https://www.upwork.com/freelancers/framemuse" target="_blank" className="hero__btn hero__btn--primary">
-            Hire on Upwork <i class="fas fa-arrow-right"></i>
+          <a href="https://t.me/FrameMuse" target="_blank" className="hero__btn hero__btn--primary">
+            Write on Telegram <i className="fab fa-telegram"></i>
           </a>
           <a href="#projects" className="hero__btn hero__btn--secondary">
             View Projects
