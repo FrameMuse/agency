@@ -12,7 +12,13 @@ export function Contact() {
         </div>
 
         <div className="contact__channels">
-          <a href="https://www.upwork.com/freelancers/framemuse" target="_blank" className="contact__card contact__card--upwork">
+          <a href="https://t.me/FrameMuse" target="_blank" className="contact__card contact__card--telegram">
+            <i class="fab fa-telegram"></i>
+            <span className="contact__card-label">t.me/FrameMuse</span>
+            <span className="contact__card-arrow"><i class="fas fa-arrow-right"></i></span>
+          </a>
+
+          <a href="https://www.upwork.com/freelancers/~011fb5acc9165ef113" target="_blank" className="contact__card contact__card--upwork">
             <i class="fab fa-upwork"></i>
             <span className="contact__card-label">Hire on Upwork</span>
             <span className="contact__card-arrow"><i class="fas fa-arrow-right"></i></span>

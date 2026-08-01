@@ -12,8 +12,11 @@ export function Header() {
         </div>
 
         <div className="header__links">
-          <a href="https://www.upwork.com/freelancers/framemuse" target="_blank" title="Upwork">
+          <a href="https://www.upwork.com/freelancers/~011fb5acc9165ef113" target="_blank" title="Upwork">
             <i class="fab fa-upwork"></i>
+          </a>
+          <a href="https://t.me/FrameMuse" target="_blank" title="Telegram">
+            <i class="fab fa-telegram"></i>
           </a>
           <a href="https://github.com/framemuse" target="_blank" title="GitHub">
             <i class="fab fa-github"></i>

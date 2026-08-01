@@ -75,7 +75,9 @@ export function ProjectCard(props: ProjectCardProps) {
       {p.images.length > 0 ? (
         <div className="project-card__images">
           {p.images.map(src => (
-            <img src={src.replace(/^\//, "")} alt={p.name} className="project-card__image" />
+            <div className="project-card__image-wrap" key={src}>
+              <img src={src.replace(/^\//, "")} alt={p.name} className="project-card__image" />
+            </div>
           ))}
         </div>
       ) : null}

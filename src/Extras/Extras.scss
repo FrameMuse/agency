@@ -1,0 +1,86 @@
+.extras {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e2e8f0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+
+  &__row {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.8rem;
+    color: #475569;
+    line-height: 1.5;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  &__label {
+    flex-shrink: 0;
+    font-family: monospace;
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: #1d4ed8;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding-top: 0.1rem;
+    width: 7rem;
+  }
+
+  &__skills,
+  &__methods {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+
+  &__tag {
+    display: inline-block;
+    padding: 0 0.25em;
+    border-radius: 0.25em;
+    background: #f1f5f9;
+    border: 1px solid #e2e8f0;
+    margin-right: 0.25em;
+  }
+
+  &__steps {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  &__step {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+
+  &__step-num {
+    font-family: monospace;
+    font-weight: 700;
+    color: #1d4ed8;
+  }
+
+  &__step-arrow {
+    color: #94a3b8;
+    margin-left: 0.25rem;
+  }
+
+  &__method {
+    font-weight: 600;
+  }
+
+  &__methods {
+    font-weight: 600;
+  }
+
+  &__payments {
+    font-family: "SF Mono", "Cascadia Code", monospace;
+    font-size: 0.8rem;
+    color: #475569;
+  }
+}

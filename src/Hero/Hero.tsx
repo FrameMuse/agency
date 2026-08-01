@@ -12,6 +12,11 @@ export function Hero() {
 
         <div className="hero__location">Montenegro, Podgorica · EU Contractor</div>
 
+        <p className="hero__range">
+          from <span className="hero__range-highlight">free</span> to{" "}
+          <span className="hero__range-highlight">$2000</span>
+        </p>
+
         <div className="hero__ctas">
           <a href="https://www.upwork.com/freelancers/framemuse" target="_blank" className="hero__btn hero__btn--primary">
             Hire on Upwork <i class="fas fa-arrow-right"></i>

@@ -1,0 +1,130 @@
+.catalog {
+  padding: 4rem 1.5rem;
+  border-bottom: 1px solid #e2e8f0;
+
+  &__inner {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  &__header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+
+  &__title {
+    font-family: Georgia, serif;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #0f172a;
+  }
+
+  &__subtitle {
+    font-size: 0.875rem;
+    color: #64748b;
+    margin-top: 0.5rem;
+  }
+
+  &__proven {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 0.9rem;
+    color: #1d4ed8;
+    margin-top: 0.75rem;
+  }
+
+  &__columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+    align-items: start;
+
+    @media (max-width: 900px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__column {
+    padding: 1.25rem 1.25rem 0.5rem;
+  }
+
+  &__column-title {
+    font-family: Georgia, serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #0f172a;
+    margin-bottom: 1rem;
+  }
+
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__item {
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 0.75rem;
+    margin-bottom: 0.75rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__item-top {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.5rem;
+  }
+
+  &__item-name {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #0f172a;
+  }
+
+  &__item-description {
+    font-size: 0.75rem;
+    color: #64748b;
+    line-height: 1.4;
+    margin: 0.35rem 0 0;
+  }
+
+  &__item-inline-delivery {
+    color: #475569;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  &__item-bottom {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.5rem;
+    margin-top: 0.25rem;
+  }
+
+  &__item-price {
+    font-family: "SF Mono", "Cascadia Code", monospace;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #1d4ed8;
+  }
+
+  &__item-proof {
+    font-size: 0.7rem;
+    color: #94a3b8;
+    text-decoration: none;
+
+    &:hover {
+      color: #1d4ed8;
+      text-decoration: underline;
+    }
+  }
+}

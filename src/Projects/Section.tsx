@@ -13,6 +13,7 @@ export function ProjectsSection(props: ProjectsSectionProps) {
         <div className="projects-section__header">
           <h2 className="projects-section__title">Projects</h2>
           <p className="projects-section__subtitle">A selection of work across domains</p>
+          <p className="projects-section__stats">$76K+ delivered · ~5,300 hours</p>
         </div>
 
         <ProjectCards projects={props.projects} />
