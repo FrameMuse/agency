@@ -13,19 +13,19 @@ export function Header() {
 
         <div className="header__links">
           <a href="https://www.upwork.com/freelancers/~011fb5acc9165ef113" target="_blank" title="Upwork">
-            <i class="fab fa-upwork"></i>
+            <i className="fab fa-upwork"></i>
           </a>
           <a href="https://t.me/FrameMuse" target="_blank" title="Telegram">
-            <i class="fab fa-telegram"></i>
+            <i className="fab fa-telegram"></i>
           </a>
           <a href="https://github.com/framemuse" target="_blank" title="GitHub">
-            <i class="fab fa-github"></i>
+            <i className="fab fa-github"></i>
           </a>
           <a href="http://linkedin.com/in/framemuse" target="_blank" title="LinkedIn">
-            <i class="fab fa-linkedin"></i>
+            <i className="fab fa-linkedin"></i>
           </a>
           <a href="mailto:valerii.zinchenko.work@gmail.com" title="Email">
-            <i class="fas fa-envelope"></i>
+            <i className="fas fa-envelope"></i>
           </a>
         </div>
       </div>

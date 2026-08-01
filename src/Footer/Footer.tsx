@@ -14,10 +14,10 @@ export function Footer() {
         </p>
 
         <div className="footer__links">
-          <a href="https://github.com/framemuse" target="_blank"><i class="fab fa-github"></i></a>
-          <a href="http://linkedin.com/in/framemuse" target="_blank"><i class="fab fa-linkedin"></i></a>
-          <a href="https://stackoverflow.com/users/12468111/framemuse" target="_blank"><i class="fab fa-stack-overflow"></i></a>
-          <a href="mailto:valerii.zinchenko.work@gmail.com"><i class="fas fa-envelope"></i></a>
+          <a href="https://github.com/framemuse" target="_blank"><i className="fab fa-github"></i></a>
+          <a href="http://linkedin.com/in/framemuse" target="_blank"><i className="fab fa-linkedin"></i></a>
+          <a href="https://stackoverflow.com/users/12468111/framemuse" target="_blank"><i className="fab fa-stack-overflow"></i></a>
+          <a href="mailto:valerii.zinchenko.work@gmail.com"><i className="fas fa-envelope"></i></a>
         </div>
       </div>
     </footer>
