@@ -19,7 +19,7 @@ export function Hero() {
         </p>
 
         <div className="hero__ctas">
-          <a href="https://t.me/FrameMuse" target="_blank" className="hero__btn hero__btn--primary">
+          <a href="https://t.me/FrameMuse" rel="noopener noreferrer" target="_blank" className="hero__btn hero__btn--primary">
             Write on Telegram <Icon name="telegram" className="icon" />
           </a>
           <a href="#projects" className="hero__btn hero__btn--secondary">

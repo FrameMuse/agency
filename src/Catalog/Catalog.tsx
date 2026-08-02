@@ -153,7 +153,7 @@ export function Catalog() {
                           className="catalog__item-proof"
                           href={offer.proof}
                           target={offer.proof.startsWith("#") ? undefined : "_blank"}
-                          rel="noreferrer"
+                          rel="noopener noreferrer"
                         >
                           proof →
                         </a>

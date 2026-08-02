@@ -15,9 +15,9 @@ export function Footer() {
         </p>
 
         <div className="footer__links">
-          <a href="https://github.com/framemuse" target="_blank" aria-label="GitHub"><Icon name="github" className="icon" /></a>
-          <a href="http://linkedin.com/in/framemuse" target="_blank" aria-label="LinkedIn"><Icon name="linkedin" className="icon" /></a>
-          <a href="https://stackoverflow.com/users/12468111/framemuse" target="_blank" aria-label="Stack Overflow"><Icon name="stack-overflow" className="icon" /></a>
+          <a href="https://github.com/framemuse" rel="noopener noreferrer" target="_blank" aria-label="GitHub"><Icon name="github" className="icon" /></a>
+          <a href="http://linkedin.com/in/framemuse" rel="noopener noreferrer" target="_blank" aria-label="LinkedIn"><Icon name="linkedin" className="icon" /></a>
+          <a href="https://stackoverflow.com/users/12468111/framemuse" rel="noopener noreferrer" target="_blank" aria-label="Stack Overflow"><Icon name="stack-overflow" className="icon" /></a>
           <a href="mailto:valerii.zinchenko.work@gmail.com" aria-label="Email"><Icon name="envelope" className="icon" /></a>
         </div>
       </div>

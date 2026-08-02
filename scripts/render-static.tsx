@@ -101,6 +101,10 @@ async function main() {
     .replace('<div id="root"></div>', `<div id="root">${appHtml}</div>`)
     .replace(/<script type="module".*?><\/script>/, "")
     .replace(/<script type="application\/json".*?<\/script>/, "")
+    .replace(/[ \t]+$/gm, "")
+    .replace(/<(meta|link|img|br|hr|input|source)([^>]*)>/g, (m, tag, attrs) =>
+      attrs.trim().endsWith("/") ? m : `<${tag}${attrs} />`,
+    )
 
   writeFileSync(resolve(DIST, "index.html"), finalHtml, "utf-8")
 

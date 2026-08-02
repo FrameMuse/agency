@@ -82,7 +82,7 @@ export function ProjectCard(props: ProjectCardProps) {
         </div>
       ) : null}
       {firstLink ? (
-        <a href={`https://${firstLink}`} className="project-card__link" target="_blank">
+        <a href={`https://${firstLink}`} className="project-card__link" target="_blank" rel="noopener noreferrer">
           View on GitHub →
         </a>
       ) : null}

@@ -13,13 +13,13 @@ export function Contact() {
         </div>
 
         <div className="contact__channels">
-          <a href="https://t.me/FrameMuse" target="_blank" className="contact__card contact__card--telegram">
+          <a href="https://t.me/FrameMuse" rel="noopener noreferrer" target="_blank" className="contact__card contact__card--telegram">
             <Icon name="telegram" className="icon" />
             <span className="contact__card-label">t.me/FrameMuse</span>
             <span className="contact__card-arrow"><Icon name="arrow-right" className="icon icon--arrow" /></span>
           </a>
 
-          <a href="https://www.upwork.com/freelancers/~011fb5acc9165ef113" target="_blank" className="contact__card contact__card--upwork">
+          <a href="https://www.upwork.com/freelancers/~011fb5acc9165ef113" rel="noopener noreferrer" target="_blank" className="contact__card contact__card--upwork">
             <Icon name="upwork" className="icon" />
             <span className="contact__card-label">Hire on Upwork</span>
             <span className="contact__card-arrow"><Icon name="arrow-right" className="icon icon--arrow" /></span>
@@ -31,13 +31,13 @@ export function Contact() {
             <span className="contact__card-arrow"><Icon name="arrow-right" className="icon icon--arrow" /></span>
           </a>
 
-          <a href="https://github.com/framemuse" target="_blank" className="contact__card contact__card--github">
+          <a href="https://github.com/framemuse" rel="noopener noreferrer" target="_blank" className="contact__card contact__card--github">
             <Icon name="github" className="icon" />
             <span className="contact__card-label">github.com/framemuse</span>
             <span className="contact__card-arrow"><Icon name="arrow-right" className="icon icon--arrow" /></span>
           </a>
 
-          <a href="http://linkedin.com/in/framemuse" target="_blank" className="contact__card contact__card--linkedin">
+          <a href="http://linkedin.com/in/framemuse" rel="noopener noreferrer" target="_blank" className="contact__card contact__card--linkedin">
             <Icon name="linkedin" className="icon" />
             <span className="contact__card-label">linkedin.com/in/framemuse</span>
             <span className="contact__card-arrow"><Icon name="arrow-right" className="icon icon--arrow" /></span>
