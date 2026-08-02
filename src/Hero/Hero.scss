@@ -13,6 +13,29 @@
     text-align: center;
   }
 
+  &__links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.325rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+
+    a {
+      color: #94a3b8;
+      transition: color 0.15s;
+
+      &:hover {
+        color: #0f172a;
+      }
+    }
+
+    .icon {
+      width: 1.675rem;
+      height: 1.675rem;
+    }
+  }
+
   &__range {
     font-size: 1.25rem;
     font-weight: 400;
