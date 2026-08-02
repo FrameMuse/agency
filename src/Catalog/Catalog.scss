@@ -46,6 +46,10 @@
 
   &__column {
     padding: 1.675rem 1.675rem 0.675rem;
+
+    @media (max-width: 640px) {
+      padding: 0;
+    }
   }
 
   &__column-title {
