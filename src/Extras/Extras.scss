@@ -16,6 +16,11 @@
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+
+    @media (max-width: 640px) {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
   }
 
   &__label {
