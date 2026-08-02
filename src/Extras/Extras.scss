@@ -19,7 +19,8 @@
     line-height: 1.5;
   }
 
-  &__row--skills {
+  &__row--skills,
+  &__row--lifecycle {
     @media (min-width: 640px) {
       grid-column: 1 / -1;
     }
