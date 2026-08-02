@@ -6,10 +6,6 @@
   grid-template-columns: 1fr;
   gap: 1rem 1.325rem;
 
-  @media (min-width: 640px) {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
   &__row {
     display: grid;
     grid-template-columns: auto 1fr;
@@ -21,9 +17,7 @@
 
   &__row--skills,
   &__row--lifecycle {
-    @media (min-width: 640px) {
-      grid-column: 1 / -1;
-    }
+    grid-column: 1 / -1;
   }
 
   &__label {
