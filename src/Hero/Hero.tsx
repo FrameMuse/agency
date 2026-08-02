@@ -38,9 +38,6 @@ export function Hero() {
           <a href="https://t.me/FrameMuse" rel="noopener noreferrer" target="_blank" className="hero__btn hero__btn--primary">
             Write on Telegram <Icon name="telegram" className="icon" />
           </a>
-          <a href="#projects" className="hero__btn hero__btn--secondary">
-            View Projects
-          </a>
         </div>
       </div>
     </section>
