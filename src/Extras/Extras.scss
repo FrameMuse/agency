@@ -2,22 +2,20 @@
   margin-top: 2.675rem;
   padding-top: 2rem;
   border-top: 1px solid #e2e8f0;
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1rem 1.325rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 
   &__row {
-    display: grid;
-    grid-template-columns: auto 1fr;
+    display: flex;
     gap: 1.325rem;
     font-size: 1.125rem;
     color: #475569;
     line-height: 1.5;
-  }
-
-  &__row--skills,
-  &__row--lifecycle {
-    grid-column: 1 / -1;
+    max-width: 852px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
   }
 
   &__label {

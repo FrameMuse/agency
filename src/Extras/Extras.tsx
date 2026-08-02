@@ -46,19 +46,14 @@ const METHODS = [
 export function Extras() {
   return (
     <div className="extras">
-      <div className="extras__row extras__row--payments">
+      <div className="extras__row">
         <span className="extras__label">Payments</span>
         <span className="extras__payments">
           PayPal · Bank transfer (EU / Montenegro / RU) · Crypto
         </span>
       </div>
 
-      <div className="extras__row extras__row--methods">
-        <span className="extras__label">Methods</span>
-        <span className="extras__methods">{METHODS.join(" · ")}</span>
-      </div>
-
-      <div className="extras__row extras__row--lifecycle">
+      <div className="extras__row">
         <span className="extras__label">Lifecycle</span>
         <div className="extras__steps">
           {STEPS.map((step, i) => (
@@ -71,7 +66,7 @@ export function Extras() {
         </div>
       </div>
 
-      <div className="extras__row extras__row--skills">
+      <div className="extras__row">
         <span className="extras__label">Skills</span>
         <div className="extras__skills">
           {SKILL_GROUPS.map(group => (
@@ -84,6 +79,11 @@ export function Extras() {
             </span>
           ))}
         </div>
+      </div>
+
+      <div className="extras__row">
+        <span className="extras__label">Methods</span>
+        <span className="extras__methods">{METHODS.join(" · ")}</span>
       </div>
     </div>
   )
