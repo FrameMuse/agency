@@ -97,7 +97,19 @@ async function main() {
   const appHtml = jsxToString(appJsx)
 
   const builtHtml = readFileSync(resolve(DIST, "index.html"), "utf-8")
-  const finalHtml = builtHtml
+
+  // Inline the built CSS into a <style> tag so the page is self-contained.
+  const cssMatch = builtHtml.match(/<link[^>]*rel="stylesheet"[^>]*href="([^"]+)"[^>]*\/?>/)
+  let finalHtml = builtHtml
+  if (cssMatch) {
+    const cssPath = resolve(DIST, cssMatch[1].replace(/^\//, ""))
+    if (existsSync(cssPath)) {
+      const cssContent = readFileSync(cssPath, "utf-8")
+      finalHtml = finalHtml.replace(cssMatch[0], `<style>${cssContent}</style>`)
+    }
+  }
+
+  finalHtml = finalHtml
     .replace('<div id="root"></div>', `<div id="root">${appHtml}</div>`)
     .replace(/<script type="module".*?><\/script>/, "")
     .replace(/<script type="application\/json".*?<\/script>/, "")
@@ -111,7 +123,7 @@ async function main() {
   const assetsDir = resolve(DIST, "assets")
   if (existsSync(assetsDir)) {
     for (const file of readdirSync(assetsDir)) {
-      if (file.endsWith(".js") || file.endsWith(".js.map")) {
+      if (file.endsWith(".js") || file.endsWith(".js.map") || file.endsWith(".css")) {
         rmSync(resolve(assetsDir, file))
       }
     }
