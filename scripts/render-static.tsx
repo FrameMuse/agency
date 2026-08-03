@@ -109,8 +109,21 @@ async function main() {
     }
   }
 
+  // Inline the icon sprite so icons resolve to same-document <symbol>s.
+  const spritePath = resolve(ROOT, "public", "icons.svg")
+  let spriteHtml = ""
+  if (existsSync(spritePath)) {
+    spriteHtml = readFileSync(spritePath, "utf-8")
+  }
+
   finalHtml = finalHtml
+    .replace(/<!-- sprite:icons -->[\s\S]*<!-- \/sprite:icons -->/, "")
     .replace('<div id="root"></div>', `<div id="root">${appHtml}</div>`)
+    .replace(/href="\/icons\.svg#/g, 'href="#')
+    .replace(
+      /<body[^>]*>/,
+      m => (spriteHtml ? `${m}<!-- sprite:icons -->${spriteHtml}<!-- /sprite:icons -->` : m),
+    )
     .replace(/<script type="module".*?><\/script>/, "")
     .replace(/<script type="application\/json".*?<\/script>/, "")
     .replace(/[ \t]+$/gm, "")
@@ -128,6 +141,9 @@ async function main() {
       }
     }
   }
+
+  const externalIcons = resolve(DIST, "icons.svg")
+  if (existsSync(externalIcons)) rmSync(externalIcons)
 
   console.log("Static HTML generated at:", resolve(DIST, "index.html"))
 }
